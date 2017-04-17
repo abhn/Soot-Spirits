@@ -1,12 +1,15 @@
 # Soot Spirits Jekyll Theme
 
-Soot Spirits is a responsive mobile ready two column Jekyll theme made with Bulma CSS. It is a great template for simple personal blogs with focus on typography.
+Soot Spirits is a responsive mobile ready lightweight two column Jekyll theme made with Bulma CSS. It is a great template for simple personal blogs with focus on typography.
 
 ![mobile](tmp/mobile.png)
 
 The text is made beautiful with combination of [League Gothic](https://www.fontsquirrel.com/fonts/league-gothic), [Roboto](https://fonts.google.com/specimen/Roboto) and [Open Sans](https://fonts.google.com/specimen/Open+Sans). Now who doesn't love them. 
 
 ![text](tmp/langslide.gif)
+
+### Demo
+[My personal blog](https://www.nagekar.com)
 
 ### Some Good Features
 
@@ -23,7 +26,7 @@ The text is made beautiful with combination of [League Gothic](https://www.fonts
 ![tab](tmp/ipad.png)
 
 ##### Mobile browser (320px and greater)
-![mobile](tmp/mobilehome.png)
+![mobile](tmp/mobile.png)
 
 ##### Hamburger menu toggle
 ![hamburger](tmp/hamburger.gif)
@@ -48,3 +51,7 @@ The text is made beautiful with combination of [League Gothic](https://www.fonts
 
 ### Licence
 MIT
+
+
+### What's up with the name?
+I was watching [My Neighbour Totoro](https://en.wikipedia.org/wiki/Susuwatari) while developing :-)
