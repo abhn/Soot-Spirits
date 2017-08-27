@@ -9,7 +9,7 @@ The text is made beautiful with combination of [League Gothic](https://www.fonts
 ![text](tmp/langslide.gif)
 
 ### Demo
-[My personal blog](https://www.nagekar.com)
+[sootspirits.github.io](https://sootspirits.github.io)
 
 ### Some Good Features
 
