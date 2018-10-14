@@ -101,3 +101,12 @@ html, body {
 a {
     color: #57A3E8;
 }
+/* Hotfix for lists being misaligned */
+.tile.is-parent ol, ul {
+  padding: 2% 5%;
+}
+/* Hotfix for Bulma striping headings of styling */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+/* ~ jpasholk */
