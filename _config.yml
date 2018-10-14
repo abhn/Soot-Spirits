@@ -1,8 +1,8 @@
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
-paginate: 1
-paginate_path: "/Soot-Spirits/blog/page:num/"
 permalink: pretty
+paginate: 1
+paginate_path: "/blog/page:num/"
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
@@ -10,16 +10,14 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Soot Spirits Jekyll Theme
-tagline: A nice, elegent theme.
+title : Soot Spirits
+tagline: Code, Science, Philosophy, Humor
 author :
-  name :
-  email :
-  github :
-  twitter :
-  feedburner :
-baseurl: "/Soot-Spirits"
-url: "https://jpasholk.com/Soot-Spirits"
+  name : Abhishek Nagekar
+  email : abhishek@nagekar.com
+  github : abhn
+  twitter : abhisheknagekar
+  feedburner : AbhishekN
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
@@ -29,7 +27,7 @@ url: "https://jpasholk.com/Soot-Spirits"
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : "https://jpasholk.com"
+production_url : https://www.nagekar.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -86,7 +84,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : # insert your Disus shortname here.
+      short_name : nagekar
 
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
