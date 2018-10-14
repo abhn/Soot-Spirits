@@ -109,4 +109,12 @@ a {
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
+@media screen and (max-width: 768px) {
+  .pagination {
+    flex-wrap: nowrap;
+  }
+  .pagination-list {
+    font-size: 0%;
+  }
+}
 /* ~ jpasholk */
