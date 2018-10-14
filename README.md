@@ -1,5 +1,7 @@
 # My Fork of the Soot Spirits Jekyll Theme
 
+[Link](https://jpasholk.com/Soot-Spirits/)
+
 ## Changes
 
 * Added pagination to the main page and post pages.
