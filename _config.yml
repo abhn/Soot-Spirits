@@ -1,31 +1,32 @@
-# This is the default format. 
+# This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:title.html
+paginate: 1
+paginate_path: "/blog/page:num/"
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
 
-# Themes are encouraged to use these universal variables 
+# Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Abhishek Nagekar's Blog
-tagline: Code, Science, Philosophy, Humor
+title : Soot Spirits Jekyll Theme
+tagline: A nice, elegent theme.
 author :
-  name : Abhishek Nagekar
-  email : abhishek@nagekar.com
-  github : abhn
-  twitter : abhisheknagekar
-  feedburner : AbhishekN
+  name :
+  email :
+  github :
+  twitter :
+  feedburner : 
 
 # The production_url is only used when full-domain names are needed
-# such as sitemap.txt 
+# such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
 #
 # If you have set a CNAME (pages.github.com) set your custom domain here.
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : https://www.nagekar.com
+production_url :
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -37,11 +38,11 @@ JB :
   # however this value will be dynamically changed depending on your deployment situation.
   #
   # CNAME (http://yourcustomdomain.com)
-  #   DO NOT SET BASE_PATH 
+  #   DO NOT SET BASE_PATH
   #   (urls will be prefixed with "/" and work relatively)
   #
   # GitHub Pages (http://username.github.io)
-  #   DO NOT SET BASE_PATH 
+  #   DO NOT SET BASE_PATH
   #   (urls will be prefixed with "/" and work relatively)
   #
   # GitHub Project Pages (http://username.github.io/project-name)
@@ -60,7 +61,7 @@ JB :
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
   #
   # Override this by defining an absolute path to assets here.
-  # ex: 
+  # ex:
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
@@ -82,29 +83,28 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : nagekar
-   
+      short_name : # insert your Disus shortname here.
+
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
-  #        
+  #
 
-  # Settings for sharing helper. 
+  # Settings for sharing helper.
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
   # Set 'provider' to the sharing provider you want to use.
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
     provider : false
-    
-  # Settings for all other include helpers can be defined by creating 
+
+  # Settings for all other include helpers can be defined by creating
   # a hash with key named for the given helper. ex:
   #
   #   pages_list :
-  #     provider : "custom"   
+  #     provider : "custom"
   #
   # Setting any helper's provider to 'custom' will bypass the helper code
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
