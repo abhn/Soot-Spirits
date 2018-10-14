@@ -1,7 +1,7 @@
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
 paginate: 1
-paginate_path: "/blog/page:num/"
+paginate_path: "/Soot-Spirits/blog/page:num/"
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
@@ -17,7 +17,7 @@ author :
   github :
   twitter :
   feedburner :
-baseurl: "Soot-Spirits"
+baseurl: "/Soot-Spirits"
 url: "https://jpasholk.com/Soot-Spirits"
 
 # The production_url is only used when full-domain names are needed
