@@ -2,6 +2,7 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 paginate: 1
 paginate_path: "/Soot-Spirits/blog/page:num/"
+permalink: pretty
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
