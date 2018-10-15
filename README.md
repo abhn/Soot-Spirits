@@ -1,7 +1,5 @@
 # Soot Spirits Jekyll Theme
 
----
-
 Soot Spirits is a responsive mobile ready lightweight two column Jekyll theme made with Bulma CSS. It is a great template for simple personal blogs with focus on typography.
 
 ![mobile](tmp/mobile.png)
