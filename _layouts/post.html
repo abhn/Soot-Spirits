@@ -7,6 +7,7 @@ layout: default
     <span class="post-meta">{{ page.date | date: "%-d %B, %Y. It was a %A." }} <a style="color:grey" href="{{ BASE_PATH }}{{ post.url }}#disqus_thread"></a></span><hr/>
 
     <span class="post-text">{{ content }}</span>
+    {% include post-pagination.html %}
 </div>
 
 <!--<div class="box">-->

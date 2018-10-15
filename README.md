@@ -1,10 +1,12 @@
 # Soot Spirits Jekyll Theme
 
+---
+
 Soot Spirits is a responsive mobile ready lightweight two column Jekyll theme made with Bulma CSS. It is a great template for simple personal blogs with focus on typography.
 
 ![mobile](tmp/mobile.png)
 
-The text is made beautiful with combination of [League Gothic](https://www.fontsquirrel.com/fonts/league-gothic), [Roboto](https://fonts.google.com/specimen/Roboto) and [Open Sans](https://fonts.google.com/specimen/Open+Sans). Now who doesn't love them. 
+The text is made beautiful with combination of [League Gothic](https://www.fontsquirrel.com/fonts/league-gothic), [Roboto](https://fonts.google.com/specimen/Roboto) and [Open Sans](https://fonts.google.com/specimen/Open+Sans). Now who doesn't love them.
 
 ![text](tmp/langslide.gif)
 
@@ -38,7 +40,7 @@ The text is made beautiful with combination of [League Gothic](https://www.fonts
 
 - [Get started](https://jekyllrb.com/docs/installation/) with having the necessary tools set up
 - Download the zip of this project or simple clone it
-- Delete the ```tmp/``` directory and any sample ```_posts``` 
+- Delete the ```tmp/``` directory and any sample ```_posts```
 - Customize the variables in ```_config.yml``` file such that it reflects your information. Similarly, change the disqus username (or remove it altogether).
 - Replace footer links in the ```_layouts/default.html``` file with yours.
 - Replace the ```site:example.com``` in ```assets/js/custom.js``` with your site's address.

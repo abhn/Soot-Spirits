@@ -28,7 +28,7 @@
 
       <div class="nav-left">
 
-        <a href="/" class="nav-item">
+        <a href="{{"/" | relative_url}}" class="nav-item">
           <span class="icon">
             <i class="fa fa-home" aria-hidden="true" title="Homepage"></i>
           </span>
@@ -56,8 +56,8 @@
       </div>
 
       <div class="nav-right nav-menu" id='nav-menu'>
-        <a href="/archive" class="nav-item">Archive</a>
-        <a href="/tags" class="nav-item">Tags</a>
+        <a href="{{ "/archive" | relative_url }}" class="nav-item">Archive</a>
+        <a href="{{ "/tags" | relative_url }}" class="nav-item">Tags</a>
       </div>
 
       <span class="nav-toggle" id="nav-toggle">
@@ -88,7 +88,7 @@
                 <div class="content nice-text">
                   <ul>
                   {% for post in site.posts limit:3 %}
-                  <li><a href="{{ post.url }}">
+                  <li><a href="{{ post.url | relative_url }}">
                     {{ post.title }}
                   </a></li>
                   {% endfor %}
